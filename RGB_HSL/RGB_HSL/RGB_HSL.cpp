@@ -40,9 +40,9 @@ int RGBtoHSL(int rgb) {
 }
 
 int HSLtoRGB(int hsl) {
-    int h = (hsl >> 16) & 0xFF;
-    int s = (hsl >> 8) & 0xFF;
-    int l = hsl & 0xFF;
+    uint16_t h = (hsl >> 16) & 0xFF;
+    uint8_t s = (hsl >> 8) & 0xFF;
+    uint8_t l = hsl & 0xFF;
 
     double hNorm = h / 60.0;
     double sNorm = s / 100.0;
