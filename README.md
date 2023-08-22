@@ -1,5 +1,5 @@
 # RGB-HSL
-The purpose of this project is to create 2 functions that convert RGB values to HSL and convert HSL values to RGB. Both functions are called in main. Instead of using 3 x 4 byte int as input, 1byte value uint8_t is used.
+The purpose of this project is to create 2 functions that convert RGB values to HSL and convert HSL values to RGB. Both functions are called in main. Instead of using 3 x 4 byte int as input, 1byte value uint8_t is used. But in HSLtoRGB function, H get uint16_t, because h takes a value in the range of 0-360.
 
 ![1](https://github.com/denizkant/RGB-HSL/assets/86944888/a4076fad-3e88-4229-bbf8-f86691aa2809)
 
